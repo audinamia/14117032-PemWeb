@@ -1,0 +1,67 @@
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f5deb3;
+}
+
+.header li {
+    float: left;
+}
+
+.header li a {
+    display: inline-block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    margin-right: -10px;
+}
+
+body {
+    font: 800px;
+    color: black;
+    background-image: url(skulls.png);
+}
+
+.styles {
+    width: 800px;
+    height: 150px;
+    margin: auto;
+    background-color: rgb(255, 0, 0);
+}
+
+.header .judul {
+    margin-top: 50px;
+}
+
+.judul {
+    padding: 10px;
+}
+
+.sidebar {
+    background-color: white;
+    margin-top: -20px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #dcdcdc;
+    margin-top: -20px;
+}
+
+/*clearfix*/
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
